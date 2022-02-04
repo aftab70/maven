@@ -28,3 +28,16 @@ steps:
       # Write your commands here
       pwd
       ls
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: 'target/*.war'
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
