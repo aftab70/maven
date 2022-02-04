@@ -27,3 +27,4 @@ steps:
     script: |
       # Write your commands here
       pwd
+      ls
