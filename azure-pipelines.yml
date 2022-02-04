@@ -28,6 +28,8 @@ steps:
       # Write your commands here
       pwd
       ls
+      ls target
+      du -sh target/*
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
