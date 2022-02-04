@@ -30,6 +30,7 @@ steps:
       ls
       ls target
       du -sh target/*
+      cp -ivr target/* /home/vsts/work/1/a
 
 - task: PublishBuildArtifacts@1
   inputs:
