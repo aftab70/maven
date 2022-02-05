@@ -26,10 +26,6 @@ steps:
     targetType: 'inline'
     script: |
       # Write your commands here
-      pwd
-      ls
-      ls target
-      du -sh target/*
       cp -ivr target/* /home/vsts/work/1/a
 
 - task: PublishBuildArtifacts@1
