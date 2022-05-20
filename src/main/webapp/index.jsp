@@ -1,16 +1,3 @@
-<html>
-  <head>
-    <title>Java App Deployment</title>
-  </head>
-  <body>
-    <h1>You have successfully deployed Java code uisng maven build</h1>
-    <p>
-      <a href="https://www.linkedin.com/in/aftab-shaikh-035440118/">Connect with me on linkedin</a>  contribute to freeCodeCamp's community and growth.
-    </p>
-  </body>
-</html>
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,7 +42,8 @@ button:hover, a:hover {
 </head>
 <body>
 
-<h2 style="text-align:center">About me </h2>
+<h3 style="text-align:center">Congratulations you have successfully deployed your Java project. </h3>
+<h2 style="text-align:center">Get connect with me</h2>
 
 <div class="card">
   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG9fcKbkqESuQ/profile-displayphoto-shrink_200_200/0/1641650801312?e=1658361600&v=beta&t=AOrlPXU43gtL0Aqr0Wa6KaRpGSJTLVwxAyLfmFfifCY" alt="" style="width:100%">
