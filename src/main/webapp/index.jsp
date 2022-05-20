@@ -41,7 +41,6 @@ button:hover, a:hover {
 </style>
 </head>
 <body>
-<h2 style="text-align:center">I love Safiya</h2>
 <h3 style="text-align:center">Congratulations you have successfully deployed your Java project. </h3>
 <h2 style="text-align:center">Get connect with me</h2>
 
@@ -49,7 +48,7 @@ button:hover, a:hover {
   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG9fcKbkqESuQ/profile-displayphoto-shrink_200_200/0/1641650801312?e=1658361600&v=beta&t=AOrlPXU43gtL0Aqr0Wa6KaRpGSJTLVwxAyLfmFfifCY" alt="" style="width:100%">
   <h1>Aftab Ali</h1>
   <p class="title">Devops Specialist</p>
-  <p>AWS/Azure/K8s/Docker/Ansible/Jenkins/Git/Linux</p>
+  <p> Cloud / K8s / Jenskins / Linux </p>
   <div style="margin: 24px 0;"> 
     <a href="#"><i class="fa fa-facebook"></i></a>  
     <a href="#"><i class="fa fa-linkedin"></i></a>  
