@@ -1,23 +1,20 @@
-boxfuse-sample-java-war-hello
+This is the Jave sample project to test your Apache tomcat server along with maven build tool.
 =============================
-
-Boxfuse Sample Hello World Java application packaged as a war file
-
-## Prerequisites
+## Requirment to perform this CI and CD 
 
 - Git
 - Java
 - Maven
 - VirtualBox
-- Boxfuse
+- Tomcat8 
 
-## Running
+## CI and CD Process
 
-1. git clone https://github.com/boxfuse/boxfuse-sample-java-war-hello
-2. cd boxfuse-sample-java-war-hello
+1. git clone https://github.com/aftab70/maven.git
+2. cd maven
 3. mvn package
-4. boxfuse run target/hello-1.0.war
+4. cd target/
+5. cp hello-v1.war <To your tomcat server inside webapps directory>
+6. Done!!!!
 
-Done!
-
-Open your browser at http://localhost:8888 or simple type ```boxfuse open hello:1.0``` to see your brand new instance in action!
+## Open your browser at http://localhost:8080/hello-v1/ or http://YOUR_PUBLIC_IP:8080/hello-v1/ 
