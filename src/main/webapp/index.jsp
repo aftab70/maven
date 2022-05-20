@@ -50,9 +50,9 @@ button:hover, a:hover {
   <p class="title">Devops Specialist</p>
   <p> Cloud / K8s / Jenskins / Linux </p>
   <div style="margin: 24px 0;"> 
-    <a href="#"><i class="fa fa-facebook"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-twitter"></i></a> 
+    <a href="https://www.facebook.com/aftab.shaikh.589"><i class="fa fa-facebook"></i></a>  
+    <a href="https://www.linkedin.com/in/aftab-shaikh-035440118/"><i class="fa fa-linkedin"></i></a>  
+    <a href="https://twitter.com/aftab70_ali"><i class="fa fa-twitter"></i></a> 
   </div>
   <p><button>Email Id - aftab70@ymail.com</button></p>
 </div>
